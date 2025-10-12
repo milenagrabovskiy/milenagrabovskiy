@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -8,32 +8,32 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #121212; /* dark background for modern look */
-  color: #e0e0e0; /* light text for contrast */
+  background-color: #1f2029; /* dark but not pitch-black */
+  color: #e0e0e0;
   line-height: 1.7;
 }
 
-/* Hero / Header */
+/* Hero */
 header.hero {
   text-align: center;
-  padding: 6rem 1rem;
-  background: linear-gradient(135deg, #1f1f2e, #2a2a3e); /* darker gradient */
+  padding: 5rem 1rem;
+  background: linear-gradient(135deg, #2b2d42, #3a3d5c);
   color: #fff;
   font-family: 'Roboto Slab', serif;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-  border-bottom: 2px solid #4a5aff;
+  border-bottom: 2px solid #4a90ff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
 }
 
 .hero h1 {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  color: #4a90ff; /* tech-y blue accent */
+  color: #4a90ff;
 }
 
 .hero h2 {
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
   color: #ccc;
   margin-bottom: 1rem;
 }
@@ -41,7 +41,7 @@ header.hero {
 .hero p {
   max-width: 650px;
   margin: 0 auto 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #ddd;
 }
 
@@ -54,11 +54,11 @@ header.hero {
   text-decoration: none;
   font-weight: 700;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
 }
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
 }
 
 /* Sections */
@@ -75,28 +75,18 @@ section h3 {
   font-weight: 700;
 }
 
-section p, section ul {
-  margin-bottom: 1rem;
-  color: #ddd;
-}
-
-section ul li {
-  margin-left: 1.2rem;
-  list-style: disc;
-}
-
-/* Projects with card style */
+/* Projects */
 .project {
-  background-color: #1e1e2e;
+  background-color: #2b2d42;
   padding: 1.5rem;
   margin-bottom: 2rem;
   border-radius: 0.8rem;
   transition: transform 0.3s, box-shadow 0.3s;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
 .project:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.7);
 }
 .project h4 a {
   color: #4a90ff;
@@ -107,16 +97,34 @@ section ul li {
   text-decoration: underline;
 }
 
+/* Skills badges */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+.skill {
+  background: #3a3d5c;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  color: #fff;
+  transition: background 0.3s;
+}
+.skill:hover {
+  background: #4a90ff;
+  cursor: default;
+}
+
 /* Footer */
 footer {
   text-align: center;
   padding: 2rem;
-  background-color: #1a1a28;
+  background-color: #2b2d42;
   font-size: 1rem;
   color: #ccc;
   font-weight: 500;
 }
-
 footer a {
   color: #4a90ff;
   text-decoration: none;
@@ -131,4 +139,5 @@ footer a:hover {
   .hero h2 { font-size: 1.3rem; }
   section { margin: 2.5rem auto; }
   .btn { padding: 0.6rem 1.2rem; font-size: 0.9rem; }
+  .skills-container { gap: 0.5rem; }
 }
