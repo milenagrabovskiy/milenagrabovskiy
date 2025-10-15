@@ -10,7 +10,7 @@
 <body>
   <header class="hero">
     <h1>Milena Grabovskiy</h1>
-    <h2>QA Automation Engineer & AWS Cloud Practitioner</h2>
+    <h2>QA Automation Engineer & Cloud Practitioner</h2>
     <p>Building high-quality automated test frameworks and CI/CD pipelines for web apps and APIs. Passionate about QA, automation, and cloud technologies.</p>
     <a href="https://github.com/milenagrabovskiy/Ecommerce-Pytest-Framework" target="_blank" class="btn">View Projects</a>
   </header>
@@ -18,10 +18,10 @@
   <section id="about">
     <h3>About Me</h3>
     <p>
-      I am a QA Automation Engineer skilled in Python, Pytest, Selenium, API testing, and CI/CD pipelines using GitHub Actions, Jenkins, and Docker. I also hold the <strong>AWS Cloud Practitioner</strong> certification and enjoy integrating cloud solutions into automation workflows.
+      I am a QA Automation Engineer skilled in Python, Pytest, Selenium, API testing, and CI/CD pipelines using GitHub Actions, Jenkins, and Docker. I enjoy integrating automation workflows for fast and reliable software delivery.
     </p>
     <p>
-      I design modular, reusable automation frameworks, optimize test coverage, and help teams release software faster while maintaining high quality. I’m always learning new tools and techniques in QA automation and cloud technologies.
+      I design modular, reusable automation frameworks, optimize test coverage, and help teams release software faster while maintaining high quality. I’m always learning new tools and techniques in QA automation and CI/CD.
     </p>
   </section>
 
@@ -29,35 +29,54 @@
     <h3>Projects</h3>
 
     <div class="project">
-      <h4>🛒 E-commerce Automation Framework</h4>
-      <p>Python · Pytest · Selenium · API Testing · CI/CD (GitHub Actions, Jenkins, Docker) · AWS Cloud</p>
-      <ul>
-        <li>Runs front-end and back-end tests via GitHub Actions</li>
-        <li>Generates Allure reports for test results</li>
-        <li>Deploys Allure reports to GitHub Pages</li>
-      </ul>
-      <p>Automates e-commerce user flows like login, add-to-cart, and checkout, with integrated CI/CD pipelines and Allure reporting.</p>
-      <div style="margin-top: 1.5rem;">
-        <img src="images/allure-dashboard.png"
-             alt="Allure Report Screenshot"
-             style="width:100%; max-width:800px; border-radius:12px; box-shadow:0 0 10px rgba(0,0,0,0.2); display:block; margin:auto;">
-      </div>
-      <p style="margin-top:1rem;">
-        <a href="https://milenagrabovskiy.github.io/Ecommerce-Pytest-Framework/" target="_blank">
-          View Live Allure Report
-        </a>
-      </p>
-    </div>
+      <h4 style="font-size: 1.8rem; color: #4a90ff; margin-bottom: 1rem;">
+        🛒 <a href="https://github.com/milenagrabovskiy/Ecommerce-Pytest-Framework" target="_blank">E-commerce Automation Framework</a>
+      </h4>
 
+      <p style="font-weight: 600; margin-bottom: 1rem;">
+        Python · Pytest · Selenium · API Testing · CI/CD (GitHub Actions & Jenkins)
+      </p>
+
+      <ul style="margin-bottom: 1.5rem; line-height: 1.6;">
+        <li>Automates e-commerce user flows like login, add-to-cart, checkout</li>
+        <li>CI/CD pipelines using <strong>GitHub Actions</strong> and <strong>Jenkins</strong></li>
+        <li>Allure reports deployed to GitHub Pages after running all front-end and back-end tests</li>
+        <li>Jenkins used to run backend regression tests and visualize results</li>
+      </ul>
+
+      <!-- Allure report screenshot -->
+      <div style="margin-bottom: 1.5rem;">
+        <p><strong>Allure report:</strong> Generated via GitHub Actions CI/CD pipeline. <a href="https://milenagrabovskiy.github.io/Ecommerce-Pytest-Framework/" target="_blank">View Live Report</a></p>
+        <img src="images/allure-dashboard.png" alt="Allure Dashboard Report" style="max-width:100%; border-radius:0.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.4); display:block; margin:auto;">
+      </div>
+
+      <!-- Jenkins backend regression console screenshot -->
+      <div style="margin-bottom: 1.5rem;">
+        <p><strong>Jenkins Backend Regression Console:</strong> Shows the CI/CD execution of backend tests.</p>
+        <img src="images/jenkins_be_reg_console.png" alt="Jenkins Backend Regression Console Output" style="max-width:100%; border-radius:0.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.4); display:block; margin:auto;">
+      </div>
+
+      <!-- Jenkins backend regression test result screenshot -->
+      <div style="margin-bottom: 2rem;">
+        <p><strong>Jenkins Backend Regression Test Results:</strong> Displays test results for backend regression.</p>
+        <img src="images/jenkins_be_reg_test_result.png" alt="Jenkins Backend Regression Test Results" style="max-width:100%; border-radius:0.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.4); display:block; margin:auto;">
+      </div>
+
+    </div>
   </section>
 
   <section id="skills">
     <h3>Skills & Certifications</h3>
     <div class="skills-container">
-      <span class="ski">
-        <!-- your skills content continues -->
-      </span>
+      <span class="skill">Python</span>
+      <span class="skill">Pytest</span>
+      <span class="skill">Selenium</span>
+      <span class="skill">API Testing</span>
+      <span class="skill">GitHub Actions</span>
+      <span class="skill">Jenkins</span>
+      <span class="skill">Docker</span>
     </div>
   </section>
+
 </body>
 </html>
