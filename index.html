@@ -18,7 +18,7 @@
   <section id="about">
     <h3>About Me</h3>
     <p>
-      I am a QA Automation Engineer skilled in Python, Pytest, Selenium, API testing, and CI/CD pipelines using GitHub Actions, Jenkins, and Docker. I enjoy integrating automation workflows for fast and reliable software delivery.
+      I am a QA Automation Engineer skilled in Python, Pytest, Selenium, API testing, MySQL DB, and CI/CD pipelines using GitHub Actions, Jenkins, and Docker. I enjoy integrating automation workflows for fast and reliable software delivery.
     </p>
     <p>
       I design modular, reusable automation frameworks, optimize test coverage, and help teams release software faster while maintaining high quality. I’m always learning new tools and techniques in QA automation and CI/CD.
@@ -28,6 +28,7 @@
   <section id="projects">
     <h3>Projects</h3>
 
+    <!-- E-commerce Project -->
     <div class="project">
       <h4 style="font-size: 1.8rem; color: #4a90ff; margin-bottom: 1rem;">
         🛒 <a href="https://github.com/milenagrabovskiy/Ecommerce-Pytest-Framework" target="_blank">E-commerce Automation Framework</a>
@@ -44,31 +45,57 @@
         <li>Jenkins used to run backend regression tests and visualize results</li>
       </ul>
 
-      <!-- Jenkins Pipeline Overview -->
       <div style="margin-bottom: 1.5rem;">
         <p><strong>Jenkins Pipeline Overview:</strong> Shows the pipeline running tests in parallel (frontend & backend).</p>
         <img src="images/jenkinspipeline.png" alt="Jenkins Pipeline Overview" style="max-width:100%; border-radius:0.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.4); display:block; margin:auto;">
       </div>
 
-      <!-- Allure report screenshot -->
       <div style="margin-bottom: 1.5rem;">
-        <p><strong>Allure report:</strong> Generated via GitHub Actions CI/CD pipeline. <a href="https://milenagrabovskiy.github.io/Ecommerce-Pytest-Framework/" target="_blank">View Live Report</a></p>
+        <p><strong>Allure report:</strong> Generated via GitHub Actions CI/CD pipeline.
+          <a href="https://milenagrabovskiy.github.io/Ecommerce-Pytest-Framework/" target="_blank" style="color:#e94e77;">View Live Report</a>
+        </p>
         <img src="images/allure-dashboard.png" alt="Allure Dashboard Report" style="max-width:100%; border-radius:0.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.4); display:block; margin:auto;">
       </div>
 
-      <!-- Jenkins backend regression console screenshot -->
       <div style="margin-bottom: 1.5rem;">
         <p><strong>Jenkins Backend Regression Console:</strong> Shows the CI/CD execution of backend tests.</p>
         <img src="images/jenkins_be_reg_console.png" alt="Jenkins Backend Regression Console Output" style="max-width:100%; border-radius:0.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.4); display:block; margin:auto;">
       </div>
 
-      <!-- Jenkins backend regression test result screenshot -->
       <div style="margin-bottom: 2rem;">
         <p><strong>Jenkins Backend Regression Test Results:</strong> Displays test results for backend regression.</p>
         <img src="images/jenkins_be_reg_test_result.png" alt="Jenkins Backend Regression Test Results" style="max-width:100%; border-radius:0.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.4); display:block; margin:auto;">
       </div>
-
     </div>
+
+    <!-- Name Selector Flask Project -->
+    <div class="project">
+      <h4 style="font-size: 1.8rem; color: #4a90ff; margin-bottom: 1rem;">
+        🎲 <a href="https://github.com/milenagrabovskiy/name_selector" target="_blank">Name Selector App</a>
+      </h4>
+
+      <p style="font-weight: 600; margin-bottom: 1rem;">
+        Python · Flask · Docker · PyTest
+      </p>
+
+      <ul style="margin-bottom: 1.5rem; line-height: 1.6;">
+        <li>Flask web application that randomly selects a name from a predefined list</li>
+        <li>Session management ensures the same name is not selected twice consecutively</li>
+        <li>Automated tests written using PyTest to validate functionality and edge cases</li>
+        <li>Dockerized for consistent deployment and easy sharing across environments</li>
+      </ul>
+
+      <div style="margin-bottom: 1rem;">
+        <p><strong>App Screenshot:</strong> Shows the Name Selector interface in action.</p>
+        <img src="images/name_selector_screenshot.png" alt="Name Selector App Screenshot" style="max-width:100%; border-radius:0.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.4); display:block; margin:auto;">
+      </div>
+
+      <div style="margin-bottom: 2rem;">
+        <p><strong>GitHub Repository:</strong> <a href="https://github.com/milenagrabovskiy/name_selector" target="_blank">View Code</a></p>
+        <p><strong>Dockerized Deployment:</strong> The app is containerized using Docker for consistent local and cloud deployment.</p>
+      </div>
+    </div>
+
   </section>
 
   <section id="skills">
