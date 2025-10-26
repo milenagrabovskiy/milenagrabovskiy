@@ -3,7 +3,7 @@
 Welcome to my **QA Automation Portfolio!**  
 I’m an aspiring QA Automation Engineer building skills in test automation, CI/CD, and DevOps tools.
 
-🌐 **Live Site:** [https://milenagrabovskiy.github.io](https://milenagrabovskiy.github.io)
+🌐 **Live Site:** [https://milenagrabovskiy.github.io/milenagrabovskiy/](https://milenagrabovskiy.github.io/milenagrabovskiy/)
 
 ---
 
