@@ -141,3 +141,11 @@ footer a:hover {
   .btn { padding: 0.6rem 1.2rem; font-size: 0.9rem; }
   .skills-container { gap: 0.5rem; }
 }
+.badge-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap; /* makes it responsive on mobile */
+  margin-top: 10px;
+}
