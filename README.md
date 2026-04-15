@@ -10,7 +10,7 @@ I’m an aspiring QA Automation Engineer building skills in test automation, CI/
 ## 🧠 About Me
 I’m passionate about ensuring software quality through automation.  
 I’ve been learning and practicing QA automation tools and frameworks, focusing on:
-- **Languages & Frameworks:** Python, Pytest, Selenium  
+- **Languages & Frameworks:** Python, Pytest, Selenium, TestNG  
 - **Testing:** Web UI testing, API testing  
 - **Tools:** Git, GitHub, Jenkins, Docker, GitHub Actions  
 - **Databases:** SQL  
